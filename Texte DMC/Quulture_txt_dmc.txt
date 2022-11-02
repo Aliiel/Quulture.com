@@ -1,24 +1,51 @@
 
 HOME PAGE 
 
-    Categorie (Header)
+        Categorie (Header)
+
+            QUONCERTS
+            EXPOSISSIONS   
+            PESTACLES   
+            ZOUME SUR…
+
+
+    SLIDE
 
         QUONCERTS
-        EXPOSISSIONS   
-        PESTACLES   
-        ZOUME SUR…
+            TOUS LES QUONCERTS
+            
+            
+            QUONCERTS DU JOUR
+            FESSETIVAL
+            PROPOSE NOUS TON QUONCERTS
+        
+        EXPOSISSIONS
+            
+            EXPOSISSIONS STREET ART
+            GALERIE FOTO
+            
+            LES MUZÉES AUX ALENTOURS
+            PROPOSE NOUS TON EQUSPO
+
+        PESTACLES
+            
+            PESTAQULE HUMOURISITIK
+            PIESSE DE THEATRE
+            OPERA
+            PESTAQULE POUR LES N'ENFANT
+            QUOMÉDIE MUZIQUALE
+
+        ZOUME SUR… 
+    (pas de slide pour le zoom) 
 
 
-SLIDE
 
-    QUONCERTS
-        TOUS LES QUONCERTS
-        LES + CON-SULTÉS
-        QUONCERTS PAR GENRES
-        QUONCERTS DU JOUR
-        FESSETIVAL
-        PROPOSE NOUS TON QUONCERTS
-    
-    EXPOSISSIONS
-    
+    QUONCERTS A VENIR
 
+        DMC / RAP / ZENITH ARENA / SAMEDI 24 DECEMBRE 2022
+            À travers ce projet, DMC a essayé de mettre en musique et en paroles la vie d’un jeune roubaisien. 
+            Il y mentionne les thématiques de sa vie à savoir la difficulté de s’inscrire dans cette société, la traduction d’un malaise à travers la drogue, le sexe. 
+            Mais il fait aussi part d’un espoir et de l’assurance que l’avenir sera meilleur. Il évoque aussi le besoin de ne pas compliquer les choses telles qu’elles sont, le besoin de ne pas briser un moral déjà sur la tangente. 
+            Dmc n’a pas l’objectif de rendre son rap lyric, mais plutôt celui de transmettre des émotions brutes, sans filtre, grâce à des paroles dont l’engagement ne s’étend qu’à sa vision du quotidien. 
+            Le but de l’ep « Trip » est de transmettre une vibe, un état d’esprit, une attitude, surfant sur la wave artistique que propose Koha. 
+            Entièrement écrit, composé, arrangé et mixé par le collectif La Toile, cet EP traduit une réelle envie de créer indépendamment des courants préexistants en France.
