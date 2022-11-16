@@ -67,6 +67,9 @@ a {
     color: white;
 }
 
+.mainlogo{
+    height: 20vh;
+}
 
 .test-background {
     background-attachment: fixed;
