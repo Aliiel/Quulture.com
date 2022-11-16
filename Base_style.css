@@ -1,8 +1,8 @@
 @font-face {
 	font-family: 'Rubik';
     font-weight: 400;
-	src: url(‘/Typo/Rubik/Rubik-VariableFont_wght.ttf’) format(‘truetype’),
-		url(‘/Typo/static/Rubik-Regular.ttf’) format(‘truetype’)
+	src: url(‘./Typo/Rubik/Rubik-VariableFont_wght.ttf’) format(‘truetype’),
+		url(‘./Typo/static/Rubik-Regular.ttf’) format(‘truetype’)
 }
 @font-face {
 	font-family: 'Rubik';
