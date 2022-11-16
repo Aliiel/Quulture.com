@@ -68,14 +68,23 @@ a {
 }
 
 
+.test-background {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/background.jpg);
+    height: 100vh;
+}
+
+
 .test-japon {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(./images/Photos/japon.jpg);
-    height: 50vh;
-
+    height: 100vh;
 }
 
 .test-concerts {
