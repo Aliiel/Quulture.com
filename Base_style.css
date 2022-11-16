@@ -7,21 +7,35 @@
 @font-face {
 	font-family: 'Rubik';
     font-weight: 600;
-	src: url(‘/Typo/Rubik/Rubik-VariableFont_wght.ttf’) format(‘truetype’),
-		url(‘/Typo/static/Rubik-SemiBold.ttf’) format(‘truetype’)
+	src: url(‘./Typo/Rubik/Rubik-VariableFont_wght.ttf’) format(‘truetype’),
+		url(‘./Typo/static/Rubik-SemiBold.ttf’) format(‘truetype’)
 }
 @font-face {
 	font-family: 'Raleway';
     font-weight: 200;
-	src: url(‘/Typo/Raleway/Raleway-VariableFont_wght.ttf’) format(‘truetype’),
-		url(‘/Typo/static/Raleway-Thin.ttf’) format(‘truetype’)
+	src: url(‘./Typo/Raleway/Raleway-VariableFont_wght.ttf’) format(‘truetype’),
+		url(‘./Typo/static/Raleway-Thin.ttf’) format(‘truetype’)
 }
 @font-face {
 	font-family: 'Raleway';
     font-weight: 400;
-	src: url(‘/Typo/Raleway/Raleway-VariableFont_wght.ttf’) format(‘truetype’),
-		url(‘/Typo/static/Raleway-Regular.ttf’) format(‘truetype’)
+	src: url(‘./Typo/Raleway/Raleway-VariableFont_wght.ttf’) format(‘truetype’),
+		url(‘./Typo/static/Raleway-Regular.ttf’) format(‘truetype’)
 }
+
+/* body {
+    background-color: white;
+    color: black;
+  }
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  .hard-mode {
+    background-color: black;
+    color: red;
+  } */
+
 .navbar-default{
   transition:2000ms ease;
   background-color: transparent;
@@ -54,12 +68,39 @@ a {
 }
 
 
-/* .test {
+.test-japon {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(./ZoomsurJapon/Images/Kyoto.jpg);
-    height: 100vh;
+    background-image: url(./images/Photos/japon.jpg);
+    height: 50vh;
 
-} */
+}
+
+.test-concerts {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/concert.jpg);
+    height: 50vh;
+}
+
+.test-expo {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/exposition.jpg);
+    height: 50vh;
+}
+
+.test-spectacle {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/spectacle.jpg);
+    height: 50vh;
+}
