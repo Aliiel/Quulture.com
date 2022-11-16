@@ -68,12 +68,39 @@ a {
 }
 
 
-/* .test {
+.test-japon {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(./ZoomsurJapon/Images/Kyoto.jpg);
-    height: 100vh;
+    background-image: url(./images/Photos/japon.jpg);
+    height: 50vh;
 
-} */
+}
+
+.test-concerts {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/concert.jpg);
+    height: 50vh;
+}
+
+.test-expo {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/exposition.jpg);
+    height: 50vh;
+}
+
+.test-spectacle {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/spectacle.jpg);
+    height: 50vh;
+}
