@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'Rubik';
+    font-weight: 400;
+	src: url(‘/Typo/Rubik/Rubik-VariableFont_wght.ttf’) format(‘truetype’),
+		url(‘/Typo/static/Rubik-Regular.ttf’) format(‘truetype’)
+}
+@font-face {
+	font-family: 'Rubik';
+    font-weight: 600;
+	src: url(‘/Typo/Rubik/Rubik-VariableFont_wght.ttf’) format(‘truetype’),
+		url(‘/Typo/static/Rubik-SemiBold.ttf’) format(‘truetype’)
+}
+@font-face {
+	font-family: 'Raleway';
+    font-weight: 200;
+	src: url(‘/Typo/Raleway/Raleway-VariableFont_wght.ttf’) format(‘truetype’),
+		url(‘/Typo/static/Raleway-Thin.ttf’) format(‘truetype’)
+}
+@font-face {
+	font-family: 'Raleway';
+    font-weight: 400;
+	src: url(‘/Typo/Raleway/Raleway-VariableFont_wght.ttf’) format(‘truetype’),
+		url(‘/Typo/static/Raleway-Regular.ttf’) format(‘truetype’)
+}
+.navbar-default{
+  transition:2000ms ease;
+  background-color: transparent;
+  height: 80px;
+  position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.navbar-default.scrolled{
+    background:rgba(0, 0, 0, 0.51);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik', sans-serif;
+}
+.dropdown-item, .nav-item {
+    font-family: 'Rubik', sans-serif;
+}
+.bi-facebook{
+    text-decoration : none;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+}
+a {
+    text-decoration : none;
+}
+.reseau {
+    color: white;
+}
+
+
+/* .test {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./ZoomsurJapon/Images/Kyoto.jpg);
+    height: 100vh;
+
+} */
