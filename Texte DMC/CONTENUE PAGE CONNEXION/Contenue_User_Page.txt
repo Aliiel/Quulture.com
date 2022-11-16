@@ -1,0 +1,55 @@
+USER PAGE
+
+"Bienvenue BG-BLACK59
+01/01/0001"
+
+MES EVENEMENTS
+
+	EVEMENTS A VENIR
+
+		1- LA BELLE AU BOIS DORMANT
+		2- EXPOSITION CINERAM - BLEU SILICO + LEVIATHAN 
+		3- UN SACRE A LILLE
+
+	EVEMENTS PASSÉ
+
+		1- BRADERIE DE LILLE 2022
+		2- 20 ANS DU MUSÉE DE LA PISCINE
+		3- LILLE 3000 2004
+
+
+MON ACTIVITÉ
+
+	MES FAVORIS
+
+		1- Concert DMC
+		2- CLEM ADAMS
+
+	MES COMMENTAIRES
+		- Ca à vraiment l'air génial ( le 29/09/2022)
+		- Sauver moi, sortez moi de la je suis un etre vivant (le 24/11/2022)
+
+	MES LIKES
+		-La Belle au Bois Dormant
+		-CLEM ADAMS
+		-STREET ART SUR LA MeL
+
+
+MON AGENDA
+
+	MES FAVORIS
+
+		1- LA BELLE AU BOIS DORMANT
+		2- CLEM ADAMS
+
+	MES COMMENTAIRES
+		
+		- Hate d'assister à se spectacles ! (le 20/10/2022)
+		- Hello World ! Est ce que j'existes vraiments?.. Existes-tu toi même? ( le 01/01/0001)
+
+MODIFIER MON PROFIL
+
+"Modifier Votre photo de profil"
+"Modifier votre pseudo" : BG-BLACK59
+"Modifier votre date de naissance" : 01/01/0001
+
