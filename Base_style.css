@@ -104,3 +104,7 @@ a {
     background-image: url(./images/Photos/spectacle.jpg);
     height: 50vh;
 }
+
+.toto {
+    text-decoration : underline;
+}
