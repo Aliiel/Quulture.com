@@ -116,6 +116,14 @@ a {
     background-image: url(./images/Photos/spectacle.jpg);
     height: 50vh;
 }
+.test-mentions{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/mention_legale.jpg);
+    height: 50vh;
+}
 
 .toto {
     text-decoration : underline;
