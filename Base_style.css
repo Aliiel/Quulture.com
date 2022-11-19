@@ -51,6 +51,12 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Rubik', sans-serif;
 }
+h2 {
+    color: #FB8B24;
+}
+h3 {
+    color : #564787;
+}
 .dropdown-item, .nav-item {
     font-family: 'Rubik', sans-serif;
 }
@@ -127,4 +133,42 @@ a {
 
 .toto {
     text-decoration : underline;
+}
+
+.button-reserver {
+    border-radius: 20px;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: transparent; 
+    color: #564787; 
+    border: 2px solid #564787;
+}
+.button-reserver:hover {
+    background-color: #564787;
+    color: white;
+  }
+/* .button-icone {
+    border: none;
+    background-color: transparent;
+    fill: #564787;
+    width: 32px;
+    height: 32px;
+}
+.button-icone:hover {
+    fill: #E2D6FF;
+} */
+
+i.button-icone {
+    font-size: 32px;
+    color:#564787;
+    cursor: pointer;
+}
+i.button-icone:hover {
+    color:#E2D6FF;
 }
