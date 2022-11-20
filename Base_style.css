@@ -131,8 +131,11 @@ a {
     height: 50vh;
 }
 
-.toto {
-    text-decoration : underline;
+.carte {
+    color: #564787;
+}
+.carte:hover {
+    color: #E2D6FF;
 }
 
 .button-reserver {
@@ -153,16 +156,6 @@ a {
     background-color: #564787;
     color: white;
   }
-/* .button-icone {
-    border: none;
-    background-color: transparent;
-    fill: #564787;
-    width: 32px;
-    height: 32px;
-}
-.button-icone:hover {
-    fill: #E2D6FF;
-} */
 
 i.button-icone {
     font-size: 32px;
