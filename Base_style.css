@@ -96,6 +96,15 @@ a {
     height: 50vh;
 }
 
+.test-japon2 {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/japon.jpg);
+    height: 100vh;
+}
+
 .test-concerts {
     background-attachment: fixed;
     background-size: cover;
@@ -127,9 +136,65 @@ a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(./images/Photos/mention_legale.jpg);
+    background-image: url(./images/Photos/Mentions.jpg);
     height: 50vh;
 }
+
+.test-profil{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Profil_client/profil.jpg);
+    height: 50vh;
+}
+
+.test-agenda{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Profil_client/agenda.jpg);
+    height: 50vh;
+}
+
+.test-connexion{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/connexion.jpg);
+    height: 50vh;
+}
+
+.test-activite{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/activité.jpg);
+    height: 50vh;
+}
+
+.test-evenements{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/evenement.jpg);
+    height: 50vh;
+}
+
+.test-contact{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/Contact.jpg);
+    height: 50vh;
+}
+
+
 
 .toto {
     text-decoration : underline;
