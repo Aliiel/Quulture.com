@@ -48,6 +48,20 @@
 .navbar-default.scrolled{
     background:rgba(0, 0, 0, 0.51);
 }
+.defile {
+    text-decoration : none;
+    color: white;
+}
+
+a.defile:hover {
+    text-decoration : none;
+    color : white
+}
+/* 
+.navlogo {
+    padding-top: 40px;
+} */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Rubik', sans-serif;
 }
@@ -68,6 +82,7 @@ p {
 }
 a {
     text-decoration : none;
+    color : white
 }
 .reseau {
     color: white;
