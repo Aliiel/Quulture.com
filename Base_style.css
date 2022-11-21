@@ -140,7 +140,14 @@ a {
     height: 50vh;
 }
 
-.test-profil{
+.carte {
+    color: #564787;
+}
+.carte:hover {
+    color: #E2D6FF;
+}
+
+.test-profil {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -194,12 +201,6 @@ a {
     height: 50vh;
 }
 
-
-
-.toto {
-    text-decoration : underline;
-}
-
 .button-reserver {
     border-radius: 20px;
     padding: 4px 8px;
@@ -218,16 +219,6 @@ a {
     background-color: #564787;
     color: white;
   }
-/* .button-icone {
-    border: none;
-    background-color: transparent;
-    fill: #564787;
-    width: 32px;
-    height: 32px;
-}
-.button-icone:hover {
-    fill: #E2D6FF;
-} */
 
 i.button-icone {
     font-size: 32px;
