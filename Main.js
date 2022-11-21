@@ -17,3 +17,4 @@ function ChangeIconeStar(s) {
 function ChangeIconeShare(sh) {
     sh.classList.toggle("bi-share-fill");
   }
+  
