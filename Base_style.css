@@ -108,7 +108,16 @@ a {
 .test-concerts {
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/concert.jpg);
+    height: 50vh;
+}
+
+.test-concerts2 {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(./images/Photos/concert.jpg);
     height: 50vh;
@@ -134,7 +143,7 @@ a {
 .test-mentions{
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(./images/Photos/Mentions.jpg);
     height: 50vh;
@@ -159,7 +168,7 @@ a {
 .test-agenda{
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(./images/Profil_client/agenda.jpg);
     height: 50vh;
@@ -168,7 +177,7 @@ a {
 .test-connexion{
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(./images/Photos/connexion.jpg);
     height: 50vh;
@@ -177,7 +186,7 @@ a {
 .test-activite{
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(./images/Photos/activite.jpg);
     height: 50vh;
@@ -186,7 +195,7 @@ a {
 .test-evenements{
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(./images/Photos/evenement.jpg);
     height: 50vh;
@@ -195,7 +204,7 @@ a {
 .test-contact{
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(./images/Photos/Contact.jpg);
     height: 50vh;
