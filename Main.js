@@ -10,11 +10,13 @@ $(window).scroll(function(){
 
 function ChangeIconeHeart(h) {
     h.classList.toggle("bi-heart-fill");
+    h.classList.toggle("bi-heart");
   }
 function ChangeIconeStar(s) {
     s.classList.toggle("bi-star-fill");
+    s.classList.toggle("bi-star");
   }
 function ChangeIconeShare(sh) {
     sh.classList.toggle("bi-share-fill");
+    sh.classList.toggle("bi-share");
   }
-  
