@@ -138,7 +138,7 @@ a {
 .test-concerts {
     background-attachment: fixed;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     background-image: url(./images/Photos/concert.jpg);
     height: 50vh;
