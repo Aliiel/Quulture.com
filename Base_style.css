@@ -53,6 +53,20 @@
 .navbar-default.scrolled{
     background:rgba(0, 0, 0, 0.51);
 }
+.defile {
+    text-decoration : none;
+    color: white;
+}
+
+a.defile:hover {
+    text-decoration : none;
+    color : white
+}
+/* 
+.navlogo {
+    padding-top: 40px;
+} */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Rubik', sans-serif;
 }
@@ -83,6 +97,7 @@ p {
 }
 a {
     text-decoration : none;
+    color : white
 }
 .reseau {
     color: white;
@@ -123,7 +138,16 @@ a {
 .test-concerts {
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/concert.jpg);
+    height: 50vh;
+}
+
+.test-concerts2 {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(./images/Photos/concert.jpg);
     height: 50vh;
@@ -149,7 +173,7 @@ a {
 .test-mentions{
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(./images/Photos/Mentions.jpg);
     height: 50vh;
@@ -174,7 +198,7 @@ a {
 .test-agenda{
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(./images/Profil_client/agenda.jpg);
     height: 50vh;
@@ -183,7 +207,7 @@ a {
 .test-connexion{
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(./images/Photos/connexion.jpg);
     height: 50vh;
@@ -192,7 +216,7 @@ a {
 .test-activite{
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(./images/Photos/activite.jpg);
     height: 50vh;
@@ -201,7 +225,7 @@ a {
 .test-evenements{
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(./images/Photos/evenement.jpg);
     height: 50vh;
@@ -210,7 +234,7 @@ a {
 .test-contact{
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(./images/Photos/Contact.jpg);
     height: 50vh;
@@ -242,4 +266,9 @@ i.button-icone {
 }
 i.button-icone:hover {
     color:#E2D6FF;
+}
+
+
+.infos {
+    padding-top: 50px;
 }
