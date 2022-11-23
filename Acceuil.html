@@ -9,6 +9,9 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./Base_style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
     <title>Acceuil</title>
     <link rel="icon" type="image/png" sizes="16x16" href="./images/Logo/Logo.png">
 </head>
@@ -162,42 +165,94 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                <p class="text-center py-1">
-                <p class="text-center py-1" Zoom sur ...> Ce mois-ci, <br>
-                    Zoom sur ...</p>
+            <div class="col-12 py-5 d-flex flex-column justify-content-center align-items-center">                
+                <p class="text-center" style="font-size: 25px;"> 
+                    Ce mois-ci, <br> <span class="zoom-sur"> ZOOM SUR...</span>                  
                 </p>
+                
             </div>
         </div>
     </div>
-    <div class=" container-fluide test-japon">
-        <div class=" container">
+    <div class="container-fluide test-japon d-flex align-items-center">
+        <div class="container">
             <div class="row">
-                <div class="col-6">
-                    
+                <div class="col-6 ">
+                    <h3 class="typo-japon d-flex justify-content-center">LE JAPON</h3>
+                    <p style="color:white; font-size: 25px; text-shadow: 0 0 0.75rem black;" class="d-flex justify-content-center">
+                        Découvrez la culture nippone au travers de ses lieux phares et de ses différents médias : musique, littérature, théâtre !
+                    </p>
                 </div>
-            </div>
-            <h3 style="color:white" class="Japon">LE JAPON</h3>
-            <p style="color:white">
-                Découvrez la culture nippone <br>
-                au travers des évènements <br>
-                autour de la métropole lilloise !
-            </p>
+            </div>            
         </div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                <h4>Les prochains évènements</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br>
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <br>
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <br>
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla <br>
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <br>
-                    culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+            <div class="col-12 d-flex flex-column align-items-center justify-content-center py-5">
+                <h3>Les prochains évènements</h3>
+                <div class="container" style="padding-top: 50px; padding-bottom: 50px">
+                    <div class="row">
+                        <div class="col-6">
+                            <h5>
+                                Le Perno Festival – 28e édition
+                            </h5>
+                            <p>
+                                Le Perno Festival, organisé par l’association « Le Père Noël Est-il Un Rocker ? » revient pour sa 28ème édition du 22 au 27 novembre 2022. Le Perno investit cette année 3 lieux de la métropole lilloise pour 5 soirées, chacune dédiée à un style de musique différent Leur recette depuis 28 ans est toujours la même « 1 place de concert = 1 jouet offert = 1 enfant heureux ». Tous les bénéfices du concert sont redistribués sous la forme de jouets à des enfants de centres sociaux de la métropole lilloise à l’approche des fêtes de fin d’année. Soirée Pop-Rock – Mardi 22 novembre au Splendid Vendredi Sur Mer, Renard Tortue et Sans Lactose Soirée Rap - Mercredi 23 novembre au Splendid Doums, Jäde et Roman Soirée Ardente- Jeudi 24 novembre au Splendid…
+                            </p>
+                            <h6>
+                                22 novembre - 26 novembre Lille
+                            </h6>
+                        </div>
+                        <div class="col-6 text-center">
+                            <img src="./images/Photos/Perno_festival.webp"
+                                alt="Perno-Festival" width="300vh">
+                            <div class="col-12 d-flex align-items-center">
+                                <div class="col-6">
+                                    <i class="bi bi-share button-icone" onclick="ChangeIconeShare(this)"></i>
+                                    <i class="bi bi-heart button-icone" onclick="ChangeIconeHeart(this)"></i>
+                                    <i class="bi bi-star button-icone" onclick="ChangeIconeStar(this)"></i>
+                                </div>
+                                <div class="col-6">
+                                    <a class="button button-reserver"
+                                        href="https://www.helloasso.com/associations/le-pere-noel-est-il-un-rocker/evenements/billetterie-le-perno-festival-28eme-edition?fbclid=IwAR0eDzxNYSqdbJxY22aq0wHd62uY_GR55q2-pvjQb9GhaWizigcTPfbN7vA">
+                                        Où réserver
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" style="padding-top: 50px; padding-bottom: 50px">
+                    <div class="row">
+                        <div class="col-6 text-center d-flex flex-column align-items-center justify-content-center">
+                            <img src="./images/Photos/Culture_bar.webp"
+                                alt="PoPUp" width="500hv">
+                            <div class="col-12 d-flex align-items-center">
+                                <div class="col-6">
+                                    <i class="bi bi-share button-icone" onclick="ChangeIconeShare(this)"></i>
+                                    <i class="bi bi-heart button-icone" onclick="ChangeIconeHeart(this)"></i>
+                                    <i class="bi bi-star button-icone" onclick="ChangeIconeStar(this)"></i>
+                                </div>
+                                <div class="col-6">
+                                    <a class="button button-reserver"
+                                        href="https://lessortiesdunelilloise.fr/evenement/pop-up-beer-and-music/">
+                                        Où réserver
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 d-flex flex-column align-items-start">
+                            <h5>
+                                Pop Up, beer and music
+                            </h5>
+                            <p>
+                                La serre se repose mais la tribu de l'Orangerie reste active et vous donne rendez-vous à St SO pour leur RÊVE PARTY La RÊVE, c'est leur bière. Une délicieuse sour cassis brassée chez Cambier. Si tu ne l'as pas encore goûtée, sache que ce sont les derniers futs Noël approche et tu cherches des cadeaux uniques et éthiques pour tes proches ? Un marché aux créateurs, fripes et upcycling proposé par le Collectif Pépites est prévu. Rien ne se perd, tout se transforme Voici la liste des exposants : - La Fripe C'est La Fête - Babulya - Mon Brol Friperie - Chiner avec Amour - L'Armoire de Mamé - Maison Boug - Remake - Maiterama - Nonoz shop - Turquoise Souk L'ambiance musicale sera résolument psychédélique. Alors si tu rêves de remonter le temps…
+                            </p>
+                            <h6>
+                                23 novembre 17h00 - 20h00<br>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
