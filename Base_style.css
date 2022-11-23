@@ -24,8 +24,17 @@
 }
 @font-face {
 	font-family: 'Federo';
-    font-weight: 400;
 	src: url(‘./Typo/Federo/Federo-Regular.ttf’) format(‘truetype’)
+}
+@font-face {
+	font-family: 'Nanum';
+    font-weight: 400;
+	src: url(‘./Typo/Nanum_Brush_Script/NanumBrushScript-Regular.ttf’) format(‘truetype’)
+}
+@font-face {
+	font-family: 'Hiro';
+    font-weight: 400;
+	src: url(‘./Typo/hiro_misake/HIROMISAKE.ttf’) format(‘truetype’)
 }
 
 /* body {
@@ -76,8 +85,23 @@ h2 {
 h3 {
     color : #564787;
 }
+
+.typo-japon {
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 100px;
+    text-shadow: 0 0 0.75rem black;
+    color: white;
+}
+.typo-japon:hover {
+    color: #FFBF81;
+}
+.zoom-sur {
+    color: #564787;
+    font-weight: bold;
+}
+
 .stylise {
-    font-family: 'Federo', sans-serif;
+    font-family: 'Federo';
     font-size: 100px;
     text-shadow: 0 0 0.75rem black;
     color: white;
