@@ -363,7 +363,12 @@ i.button-icone:hover {
 }
 
 
-
+.connexion {
+    background-color: #564787;
+    border-radius: 30px;
+    color:white;
+    padding: top 100px;
+}
 
 
 
