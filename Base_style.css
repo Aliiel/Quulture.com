@@ -22,6 +22,11 @@
 	src: url(‘./Typo/Raleway/Raleway-VariableFont_wght.ttf’) format(‘truetype’),
 		url(‘./Typo/static/Raleway-Regular.ttf’) format(‘truetype’)
 }
+@font-face {
+	font-family: 'Federo';
+    font-weight: 400;
+	src: url(‘./Typo/Federo/Federo-Regular.ttf’) format(‘truetype’)
+}
 
 /* body {
     background-color: white;
@@ -48,6 +53,20 @@
 .navbar-default.scrolled{
     background:rgba(0, 0, 0, 0.51);
 }
+.defile {
+    text-decoration : none;
+    color: white;
+}
+
+a.defile:hover {
+    text-decoration : none;
+    color : white
+}
+/* 
+.navlogo {
+    padding-top: 40px;
+} */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Rubik', sans-serif;
 }
@@ -57,6 +76,16 @@ h2 {
 h3 {
     color : #564787;
 }
+.stylise {
+    font-family: 'Federo', sans-serif;
+    font-size: 100px;
+    text-shadow: 0 0 0.75rem black;
+    color: white;
+}
+.stylise:hover {
+    color: #FFBF81;
+}
+
 .dropdown-item, .nav-item {
     font-family: 'Rubik', sans-serif;
 }
@@ -68,6 +97,7 @@ p {
 }
 a {
     text-decoration : none;
+    color : white
 }
 .reseau {
     color: white;
@@ -114,6 +144,15 @@ a {
     height: 50vh;
 }
 
+.test-concerts2 {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/concert.jpg);
+    height: 50vh;
+}
+
 .test-expo {
     background-attachment: fixed;
     background-size: cover;
@@ -134,7 +173,7 @@ a {
 .test-mentions{
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(./images/Photos/Mentions.jpg);
     height: 50vh;
@@ -159,7 +198,7 @@ a {
 .test-agenda{
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(./images/Profil_client/agenda.jpg);
     height: 50vh;
@@ -168,7 +207,7 @@ a {
 .test-connexion{
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(./images/Photos/connexion.jpg);
     height: 50vh;
@@ -177,7 +216,7 @@ a {
 .test-activite{
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(./images/Photos/activite.jpg);
     height: 50vh;
@@ -186,7 +225,7 @@ a {
 .test-evenements{
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(./images/Photos/evenement.jpg);
     height: 50vh;
@@ -195,7 +234,7 @@ a {
 .test-contact{
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url(./images/Photos/Contact.jpg);
     height: 50vh;
@@ -228,3 +267,25 @@ i.button-icone {
 i.button-icone:hover {
     color:#E2D6FF;
 }
+
+
+.infos {
+    padding-top: 30px;
+}
+
+.modify-profile {
+    padding-top: 30px;
+}
+
+.events {
+    padding-top: 30px;
+}
+
+.activity {
+    padding-top: 30px;
+}
+
+.agenda {
+    padding-top:30px;
+}
+
