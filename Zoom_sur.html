@@ -165,15 +165,15 @@
                             </a>
                         </li>
                     </div>
-                    <!-- <div>
-                        <button onclick="myFunction()">Toggle dark mode</button>
-                    </div> -->
+                    <div>
+                        <button class="button-darkmode" onclick="myFunction()">Dark mode</button>
+                    </div>
                 </div>
             </div>
         </div>
     </nav>
     <div class=" container-fluide test-japon2 d-flex justify-content-center align-items-center">
-        <h3 style="text-shadow: 0 0 0.75rem rgb(0, 0, 0) ; color:rgb(255, 255, 255)" class="zoom-japon">ZOOM SUR </h3>
+        <h3 class="titre-article zoom-japon" style="color:rgb(255, 255, 255);">ZOOM SUR </h3>
     </div>
     <div>
         <div class="container">
@@ -193,8 +193,8 @@
     <div class="container-fluide">
         <div style="background-color: rgb(230, 230, 230);">
             <div id="carouselExampleCaptions2"
-                class="carousel slide w-150 carousel-dark m-auto carousel-fade justify-content-center"
-                data-interval="1000" data-bs-ride="false">
+                class="carousel slide w-150 carousel-dark m-auto carousel-fade justify-content-center " data-bs-ride="carousel"
+                data-interval="1" data-bs-ride="false">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./images/Photos/Japon/kinkakuji-temple-gd7c284219_1920.jpg"
@@ -278,7 +278,7 @@
         </div>
     </div>
     <div class="container-fluide">
-        <div style="background-color: rgb(230, 230, 230);">
+        <div class="fond">
             <div class="container" style="padding-top: 50px; padding-bottom: 50px">
                 <div class="row">
                     <div class="col-6 text-center d-flex flex-column align-items-center justify-content-center">
@@ -376,7 +376,7 @@
         </div>
     </div>
     <div class="container-fluide">
-        <div style="background-color: rgb(230, 230, 230);">
+        <div class="fond">
             <div class="container" style="padding-top: 50px; padding-bottom: 50px">
                 <div class="row">
 
@@ -502,7 +502,55 @@
             </div>
         </div>
     </div>
-
+    <div class="container" style="padding-top: 50px; padding-bottom: 50px">
+        <div class="row">
+            <div class="col-6">
+                <h3>
+                    ROMAN COUP DE COEUR
+                </h3>
+                <h4>
+                    Soundtrack de Hideo Furukawa
+                </h4>
+                <p>
+                    Fin du XXème siècle. Deux enfants, un garçon et une fille, se retrouvent échoués sur une île
+                    déserte
+                    dans le Pacifique. En deux années, ils développent des techniques de survie et de communication
+                    avec
+                    la nature, proche du chamanisme. <br><br>
+                    Devenus grands et rendu à la civilisation, ils découvrent un Tokyo transformé par le
+                    réchauffement
+                    climatique et l’immigration environnementale. Envahi par une végétation tropicale et des
+                    colonies de
+                    corbeaux à gros bec. Où ils vont devoir survivre sur les décombre de la société des hommes.
+                </p>
+                <h5>
+                    "J'étais un humain, j'étais en colère, et j'ai juré de mettre mes tripes à écrire un chant à la
+                    gloire des corbeaux. J'ignore à quel âge je mourrai, j'ignore combien de dizaines de romans
+                    j'écrirai jusqu'à ma mort. <br> <br>
+                    Mais je peux dire une chose. S'il y a quelque chose que l'on puisse appeler l'ère Furukawa,
+                    alors
+                    son année 0 correspond à l'année de publication de Soundtrack."
+                </h5>
+                <p> Neuf : 22.37€ / Occasion : 6.87€</p>
+            </div>
+            <div class="col-6 text-center d-flex flex-column align-items-center justify-content-center">
+                <img src="./ZoomsurJapon/Images/Soundtrack.jpeg" alt="LaPiscine" width="300vh">
+                <div class="col-12 d-flex align-items-center">
+                    <div class="col-6">
+                        <i class="bi bi-share button-icone" onclick="ChangeIconeShare(this)"></i>
+                        <i class="bi bi-heart button-icone" onclick="ChangeIconeHeart(this)"></i>
+                        <i class="bi bi-star button-icone" onclick="ChangeIconeStar(this)"></i>
+                    </div>
+                    <div class="col-6">
+                        <a class="button button-reserver"
+                            href="https://livre.fnac.com/a11183774/Hideo-Furukawa-Soundtrack">
+                            Où acheter
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="page-footer absolute">
         <div class="container-fluid p-0">
