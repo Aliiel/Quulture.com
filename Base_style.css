@@ -41,17 +41,26 @@
     color: red;
   } */
 
+.concertDMC{
+    justify-content: center;
+    color: #FB8B24;
+    
+}
+
 .navbar-default{
-  transition:2000ms ease;
-  background-color: transparent;
-  height: 80px;
-  position: fixed !important;
-    top: 0;
-    left: 0;
-    right: 0;
+    z-index: 1000;
+    transition:2000ms ease;
+    background-color: transparent;
+    height: 80px;
+    position: fixed !important;
+        top: 0;
+        left: 0;
+        right: 0;
+    
 }
 .navbar-default.scrolled{
     background:rgba(0, 0, 0, 0.51);
+    z-index: 1000;
 }
 .defile {
     text-decoration : none;
@@ -115,6 +124,7 @@ a {
     background-image: url(./images/Photos/background.jpg);
     height: 100vh;
 }
+
 
 
 .test-japon {
@@ -289,3 +299,6 @@ i.button-icone:hover {
     padding-top:30px;
 }
 
+.concertDMC {
+
+}
