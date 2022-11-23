@@ -37,11 +37,11 @@
 	src: url(‘./Typo/hiro_misake/HIROMISAKE.ttf’) format(‘truetype’)
 }
 
-/* body {
+body {
     background-color: white;
     color: black;
   }
-  .dark-mode {
+  .d-mode {
     background-color: black;
     color: white;
   }
@@ -80,6 +80,11 @@ a.defile:hover {
     text-decoration : none;
     color : white
 }
+.button-darkmode {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
 /* 
 .navlogo {
     padding-top: 40px;
@@ -117,6 +122,11 @@ h3 {
 }
 .stylise:hover {
     color: #FFBF81;
+}
+.titre-article {
+    font-family: 'Federo';
+    font-size: 100px; 
+    text-shadow: 0 0 0.75rem rgb(0, 0, 0) ;
 }
 .zoom-japon {
     font-family: 'Nanum Brush Script', cursive;
@@ -221,6 +231,9 @@ a {
 }
 .carte:hover {
     color: #E2D6FF;
+}
+.fond {
+    background-color: rgb(230, 230, 230);
 }
 
 .test-profil {
@@ -330,15 +343,64 @@ i.button-icone:hover {
     color: var(--bs-nav-pills-link-active-color);
     background-color: #564787;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: var(--bs-nav-pills-link-active-color);
-    background-color: #564787;
-}
-
 .button-profil {
     color:#564787;
 }
-
 .button-profil:hover {
     color:#FB8B24;
 }
+
+.enregistrer {
+    padding: top 100px;
+}
+/* darkmode */
+.d-mode h2 {
+    color: #564787;
+}
+.d-mode h3 {
+    color : #FB8B24;
+}
+.d-mode .zoom-sur {
+    color: #FB8B24;
+  }
+.d-mode .v {
+    color: #FB8B24;
+}
+.d-mode .typo-japon:hover {
+    color: #E2D6FF;
+}
+.d-mode .stylise:hover {
+    color: #E2D6FF;
+}
+.d-mode .button-reserver {
+    border-radius: 20px;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: transparent; 
+    color: #FB8B24; 
+    border: 2px solid #FB8B24;
+}
+.d-mode .button-reserver:hover {
+    background-color: #FB8B24;
+    color: white;
+  }
+
+
+.d-mode i.button-icone {
+    font-size: 32px;
+    color:#FB8B24;
+    cursor: pointer;
+}
+.d-mode i.button-icone:hover {
+    color:#FFBF81;
+}
+.d-mode .fond {
+    background-color: rgb(48, 48, 48);
+}
+
