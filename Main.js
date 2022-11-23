@@ -2,10 +2,10 @@ $(window).scroll(function(){
 	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
 });
 
-// function myFunction() {
-//     var element = document.body;
-//     element.classList.toggle("dark-mode");
-//   }
+function myFunction() {
+     var element = document.body;
+     element.classList.toggle("d-mode");
+  }
 
 function ChangeIconeHeart(h) {
     h.classList.toggle("bi-heart-fill");
