@@ -81,8 +81,10 @@ a.defile:hover {
     color : white
 }
 .button-darkmode {
+    border-radius: 10 px;
     background-color: black;
     color: white;
+    
 }
 /* 
 .navlogo {
@@ -350,8 +352,58 @@ i.button-icone:hover {
 }
 
 .enregistrer {
+    padding-top: 30px;
+}
+
+.bouton_enregistrer {
+    background-color: #564787;
+    border-radius: 30px;
+    color:white;
+    padding: 10px 20px;
+}
+
+
+.connexion {
+    background-color: #564787;
+    border-radius: 30px;
+    color:white;
     padding: top 100px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* darkmode */
 .d-mode .button-darkmode {
     background-color: rgb(255, 255, 255);
@@ -406,4 +458,3 @@ i.button-icone:hover {
 .d-mode .fond {
     background-color: rgb(48, 48, 48);
 }
-
