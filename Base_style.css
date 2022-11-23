@@ -350,8 +350,52 @@ i.button-icone:hover {
 }
 
 .enregistrer {
-    padding: top 100px;
+    padding-top: 30px;
 }
+
+.bouton_enregistrer {
+    background-color: #564787;
+    border: radius 100px;
+    color:white
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* darkmode */
 .d-mode .button-darkmode {
     background-color: rgb(255, 255, 255);
