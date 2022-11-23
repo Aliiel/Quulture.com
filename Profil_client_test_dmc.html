@@ -9,7 +9,7 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./Base_style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <title>Nous Contacter</title>
+    <title>Mon Profil</title>
     <link rel="icon" type="image/png" sizes="16x16" href="./images/Logo/Logo.png">
 </head>
 
@@ -83,12 +83,13 @@
                             <ul class="dropdown-menu text-bg-dark">
                                 <li><a class="dropdown-item text-white" href="./Concerts.html">Tous les concerts</a>
                                 </li>
-                                <li><a class="dropdown-item text-white" href="./Concerts_du_jour.html">Concert du jour</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Concert du jour</a></li>
                                 <li><a class="dropdown-item text-white" href="./Concert_Festival.html">Festival</a></li>
                                 <li>
                                     <hr class="dropdown-divider $White">
                                 </li>
-                                <li><a class="dropdown-item text-white" href="#">Propose nous ton concert</a></li>
+                                <li><a class="dropdown-item text-white" href="./Nous_contacter.html">Propose nous ton
+                                        concert</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -97,13 +98,16 @@
                                 Expositions
                             </a>
                             <ul class="dropdown-menu text-bg-dark">
-                                <li><a class="dropdown-item text-white" href="#">Street-art</a></li>
-                                <li><a class="dropdown-item text-white" href="#">Galerie photos</a></li>
-                                <li><a class="dropdown-item text-white" href="#">Musées</a></li>
+                                <li><a class="dropdown-item text-white"
+                                        href="./Expositions_street-art.html">Street-art</a></li>
+                                <li><a class="dropdown-item text-white" href="./Expositions_galerie.html">Galerie
+                                        Expositions</a></li>
+                                <li><a class="dropdown-item text-white" href="./Expositions_musees.html">Musées</a></li>
                                 <li>
                                     <hr class="dropdown-divider $White">
                                 </li>
-                                <li><a class="dropdown-item text-white" href="./Nous_contacter.html">Propose nous ton expo</a></li>
+                                <li><a class="dropdown-item text-white" href="./Nous_contacter.html">Propose nous ton
+                                        expo</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -114,12 +118,14 @@
                             <ul class="dropdown-menu text-bg-dark">
                                 <li><a class="dropdown-item text-white" href="./Spectacle_stand_up.html">Stand-up</a>
                                 </li>
-                                <li><a class="dropdown-item text-white" href="./Spectacle_Theatre.html">Pièces de théâtres</a></li>
+                                <li><a class="dropdown-item text-white" href="./Spectacle_Theatre.html">Pièces de
+                                        théâtres</a></li>
                                 <li><a class="dropdown-item text-white" href="./Spectacle_Opera.html">Opéra</a></li>
                                 <li>
                                     <hr class="dropdown-divider $White">
                                 </li>
-                                <li><a class="dropdown-item text-white" href="./Nous_contacter.html">Propose nous ton spectacle</a></li>
+                                <li><a class="dropdown-item text-white" href="./Nous_contacter.html">Propose nous ton
+                                        spectacle</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -146,65 +152,97 @@
             </div>
         </div>
     </nav>
-    <div class=" container-fluide test-contact d-flex justify-content-center align-items-center">
-        <h3 style="font-size: 100px; text-shadow: 0 0 0.75rem rgb(0, 0, 0) ; color:rgb(255, 255, 255)">NOUS CONTACTER</h3>
+    <div class=" container-fluide test-profil d-flex justify-content-center align-items-center">
+        <h3 style="font-size: 100px; text-shadow: 0 0 0.75rem rgb(0, 0, 0); color:rgb(255, 255, 255)">MON PROFIL</h3>
     </div>
-    <div>
-        <form method="get" class="page-contact">
-            <div class="container-fluid">
-                <div class="footer-formulaire text-center py-3">
-                    <h1>Nous contacter</h1>
-                    <div>
-                        Votre Nom:*
-                        <br />
-                        <label>
-                            <input type="text" name="Nom" placeholder="Votre Nom" required size="30" required>
-                        </label><br>
-                        <br />
-                    </div>
-                    <div>
-                        Votre Prénom:*
-                        <br />
-                        <label>
-                            <input type="text" name="Prénom" placeholder="Votre prénom" required size="30" required>
-                        </label><br>
-                        <br />
-                    </div>
-                    <div>
-                        Votre email:*
-                        <br />
-                        <input type="email" name="e_mail" placeholder="monadresse@email.com" required size="30"
-                            required>
-                        <br />
-                    </div>
-                    <div>
-                        Votre message:*
-                        <br />
-                        <textarea name="message" placeholder="Laisser votre message ici" rows="10" cols="100"
-                            required></textarea>
-                        <br />
-                    </div>
-                    <div>
-                        <input type="submit" value="Envoyer maintenant" />
-                    </div>
-                    <label>
-                        <span class="wpcf7-form-control-wrap accord">
-                            <span class="wpcf7-form-control wpcf7-acceptance">
-                                <span class="wpcf7-list-item">
-                                    <input type="checkbox" name="accord" value="1" aria-invalid="false" required>
-                                </span>
-                            </span>
-                        </span>
-                        Je comprends que les informations saisies seront utilisées exclusivement afin que notre troupe
-                        ait la possibilité de me recontacter. <br> 
-                        Ainsi, j'autorise Quulture.com à en profiter pour cet usage.
-                    </label>
-                </div>
+    
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-3 v-pills-tab" role="tablist" aria-orientation="vertical"
+            style="font: size 50px;">
+
+                    <a href="./Profil_client.html">
+                    <button class="nav-link active" id="v-pills-profil-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-profil" type="button" role="tab" aria-controls="v-pills-profil"
+                        aria-selected="false">Mon profil</button></a>
+                        
+                    <a href="./Mes_évènements.html">
+                    <button class="nav-link button-profil" id="v-pills-evenement-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-evenement" type="button" role="tab" aria-controls="v-pills-evenement"
+                        aria-selected="true">Mes évènements</button></a>
+                    <a href="./Mon_activité.html">
+                    <button class="nav-link button-profil" id="v-pills-activite-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-activite" type="button" role="tab" aria-controls="v-pills-activite"
+                        aria-selected="false">Mon
+                        activité</button></a>
+                    <a href="./Mon_agenda.html">
+                    <button class="nav-link button-profil" id="v-pills-agenda-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-agenda" type="button" role="tab" aria-controls="v-pills-agenda"
+                        aria-selected="false">Mon
+                        agenda</button>
+                    </a>
             </div>
-        </form>
+            <div class="col-3">
+                <a href="./Profil_client.html">
+                    <button class="nav-link active" id="v-pills-profil-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-profil" type="button" role="tab" aria-controls="v-pills-profil"
+                        aria-selected="false">Mon profil</button></a>
+                        
+                    <a href="./Mes_évènements.html">
+                    <button class="nav-link button-profil" id="v-pills-evenement-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-evenement" type="button" role="tab" aria-controls="v-pills-evenement"
+                        aria-selected="true">Mes évènements</button></a>
+                    <a href="./Mon_activité.html">
+                    <button class="nav-link button-profil" id="v-pills-activite-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-activite" type="button" role="tab" aria-controls="v-pills-activite"
+                        aria-selected="false">Mon
+                        activité</button></a>
+                    <a href="./Mon_agenda.html">
+                    <button class="nav-link button-profil" id="v-pills-agenda-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-agenda" type="button" role="tab" aria-controls="v-pills-agenda"
+                        aria-selected="false">Mon
+                        agenda</button>
+                    </a>
+            </div>
+            <div class="col-3">
+                w
+            </div>
+            <div class="col-3">
+                w
+            </div>
+
+
+        </div>
+
     </div>
 
+    <!-- <div class="d-flex align-items-start justify">
+        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical"
+            style="font: size 50px;">
+            <a href="./Profil_client.html">
+                <button class="nav-link active" id="v-pills-profil-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-profil" type="button" role="tab" aria-controls="v-pills-profil"
+                    aria-selected="false">Mon profil</button></a>
+            <a href="./Mes_évènements.html">
+                <button class="nav-link button-profil" id="v-pills-evenement-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-evenement" type="button" role="tab" aria-controls="v-pills-evenement"
+                    aria-selected="true">Mes évènements</button></a>
+            <a href="./Mon_activité.html">
+                <button class="nav-link button-profil" id="v-pills-activite-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-activite" type="button" role="tab" aria-controls="v-pills-activite"
+                    aria-selected="false">Mon
+                    activité</button></a>
+            <a href="./Mon_agenda.html">
+                <button class="nav-link button-profil" id="v-pills-agenda-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-agenda" type="button" role="tab" aria-controls="v-pills-agenda"
+                    aria-selected="false">Mon
+                    agenda</button></a>
+        </div>
+ -->
 
+
+ 
 
 
     <footer class="page-footer absolute">
