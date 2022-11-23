@@ -326,12 +326,10 @@ i.button-icone:hover {
     padding-top:30px;
 }
 
-/* <<<<<<< HEAD */
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: var(--bs-nav-pills-link-active-color);
     background-color: #564787;
 }
-
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: var(--bs-nav-pills-link-active-color);
     background-color: #564787;
@@ -344,5 +342,3 @@ i.button-icone:hover {
 .button-profil:hover {
     color:#FB8B24;
 }
-
-
