@@ -109,7 +109,10 @@ h3 {
 .stylise:hover {
     color: #FFBF81;
 }
-
+.zoom-japon {
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 200px;
+}
 .dropdown-item, .nav-item {
     font-family: 'Rubik', sans-serif;
 }
