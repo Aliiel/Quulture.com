@@ -155,7 +155,7 @@
         <h3 style="font-size: 100px; text-shadow: 0 0 0.75rem rgb(0, 0, 0); color:rgb(255, 255, 255)">MON PROFIL</h3>
     </div>
     <div class="d-flex align-items-start justify">
-        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="font: size 50px;">
             <a href="./Profil_client.html">
                 <button class="nav-link active" id="v-pills-profil-tab" data-bs-toggle="pill"
                     data-bs-target="#v-pills-profil" type="button" role="tab" aria-controls="v-pills-profil"
@@ -188,19 +188,23 @@
                 <section class="profil waiting animated">
                     <div class="inner">
                         <section class="infos" id="infos">
-
                             <div>
                                 <h2>Bienvenue, User !</h2>
+                            </div>
+                            <div class='avatar'>
+                                <img src="./images/Profil_client/profils3_1.png" class='avatar avatar-160 photo' height='160' width='160'> </div>
+                            </div>
                                 <p>Ici, vous pouvez modifier vos informations.</p>
                                 <p>Si vous souhaitez supprimer totalement votre compte, <strong>cliquez ici.</strong>
                                 </p>
                         </section>
                     </div>
                     <div class="modify-avatar">
-                        <div class='avatar'>
+                        
                         </div>
                     </div>
-                    <div class="modify-profile">
+                    <section class="modify-profile" id="modify-profile">
+                        <div>
                         <form role="form" id="user-profile-form">
                             <div class="container">
                                 <div class="row">
