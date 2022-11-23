@@ -81,7 +81,6 @@ a.defile:hover {
     color : white
 }
 .button-darkmode {
-    border-radius: 10px;
     background-color: black;
     color: white;
 }
@@ -354,6 +353,10 @@ i.button-icone:hover {
     padding: top 100px;
 }
 /* darkmode */
+.d-mode .button-darkmode {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
 .d-mode h2 {
     color: #564787;
 }
