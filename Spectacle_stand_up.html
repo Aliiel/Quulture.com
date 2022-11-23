@@ -139,22 +139,22 @@
                             </a>
                         </li>
                     </div>
-                    <!-- <div>
-                        <button onclick="myFunction()">Toggle dark mode</button>
-                    </div> -->
+                    <div>
+                        <button class="button-darkmode" onclick="myFunction()">Dark mode</button>
+                    </div>
                 </div>
             </div>
         </div>
     </nav>
     <div class=" container-fluide test-spectacle d-flex justify-content-center align-items-center">
-        <h3 style="font-size: 100px; text-shadow: 0 0 0.75rem rgb(0, 0, 0); color:rgb(255, 255, 255)">SPECTACLES</h3>
+        <h3 class="titre-article" style="color:rgb(255, 255, 255);">SPECTACLES</h3>
     </div>
     <div>
         <div>
             <div class="container">
                 <div class="row">
                     <div class="col-12" style="padding-top: 50px;">
-                        <h2 class="toto">
+                        <h2>
                             STAND UP
                         </h2>
                     </div>
@@ -167,10 +167,8 @@
                 <div class="col-6">
 
                     <h3>
-                        <a id="CLEM"></a>
-                        <strong> CLEM ADAMS</strong>
+                        CLEM ADAMS
                     </h3>
-                    <br>
                     <p>
                         CLEMOU est de retour, 3 ans après son dernier show événement.
                         <br>
@@ -183,32 +181,56 @@
                         A bientôt !
                     </p>
                     <h4>
-                        HUMOUR / SPOTLIGHT (LILLE)
-                        <br>
+                        HUMOUR / Spotlight (LILLE)
                         <br>
                         Le 25/11/2022
                     </h4>
                 </div>
-                <div class="col-6 p-5 d-flex flex-column align-items-center justify-content-center ">
+                <div class="col-6 p-5 d-flex flex-column align-items-center justify-content-center text-center">
                     <img src="./Texte_DMC/CONTENUE_SPECTACLE/IMAGE_PAR_CATEGORIE/Comedie/Spé_Clem_Adams.jpg"
                         alt="ClemAdams" width="150vh">
+                        <div class="col-12 d-flex align-items-center">
+                            <div class="col-6">
+                                <i class="bi bi-share button-icone" onclick="ChangeIconeShare(this)"></i>
+                                <i class="bi bi-heart button-icone" onclick="ChangeIconeHeart(this)"></i>
+                                <i class="bi bi-star button-icone" onclick="ChangeIconeStar(this)"></i>
+                            </div>
+                            <div class="col-6">
+                                <a class="button button-reserver"
+                                    href="https://www.ticketmaster.fr/fr/rechercheavancee/g/CO/v/630/idtier/1141714?utm_source=TM-google&gclid=CjwKCAiAmuKbBhA2EiwAxQnt783q6mW8QlGR4NmgQDwcy_KzXmorU9lkBp4yS7wfSA89vSH0TZKbaRoCZF0QAvD_BwE&gclsrc=aw.ds">
+                                    Où réserver
+                                </a>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
 
         <div class="container-fluide">
-            <div style="background-color: rgb(230, 230, 230);">
+            <div class="fond">
                 <div class="container" style="padding-top: 50px; padding-bottom: 50px">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-6 text-center">
                             <img src="./Texte_DMC/CONTENUE_SPECTACLE/IMAGE_PAR_CATEGORIE/Comedie/Spé_cest_decide_je_deviens_une_conasse.jpg"
                                 alt="festivalMainsquare" width="500vh">
+                                <div class="col-12 d-flex align-items-center">
+                                    <div class="col-6">
+                                        <i class="bi bi-share button-icone" onclick="ChangeIconeShare(this)"></i>
+                                        <i class="bi bi-heart button-icone" onclick="ChangeIconeHeart(this)"></i>
+                                        <i class="bi bi-star button-icone" onclick="ChangeIconeStar(this)"></i>
+                                    </div>
+                                    <div class="col-6">
+                                        <a class="button button-reserver"
+                                            href="https://www.ticketmaster.fr/fr/rechercheavancee/g/CO/v/630/idtier/1141714?utm_source=TM-google&gclid=CjwKCAiAmuKbBhA2EiwAxQnt783q6mW8QlGR4NmgQDwcy_KzXmorU9lkBp4yS7wfSA89vSH0TZKbaRoCZF0QAvD_BwE&gclsrc=aw.ds">
+                                            Où réserver
+                                        </a>
+                                    </div>
+                                </div>
                         </div>
                         <div class="col-6 d-flex flex-column align-items-start">
                             <h3>
-                                <strong> C'EST DECIDÉ, JE DEVIENS UNE CONASSEL</strong>
+                                C'EST DECIDÉ, JE DEVIENS UNE CONASSE
                             </h3>
-                            <br>
                             <p>
                                 Dolorès est coincée, distinguée et timide mais aujourd'hui c'est décidé, elle veut
                                 devenir une connasse !
@@ -218,27 +240,14 @@
 
                             </p>
                             <h4>
-                                HUMOUR / THEATE DE LA COMEDIE DE LILLE <br>
+                                HUMOUR / Théâtre de la Comédie (LILLE)
                                 <br>
                                 Le 24/11/2022
-
                         </div>
-
                     </div>
                 </div>
             </div>
-
         </div>
-
-        <div class="row">
-            <div class="col-6">
-                <p>
-
-                </p>
-            </div>
-        </div>
-
-    </div>
 
     <footer class="page-footer absolute">
         <div class="container-fluid p-0">
