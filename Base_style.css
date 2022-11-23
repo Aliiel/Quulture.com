@@ -326,17 +326,12 @@ i.button-icone:hover {
     padding-top:30px;
 }
 
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: var(--bs-nav-pills-link-active-color);
     background-color: #564787;
 }
-=======
-<<<<<<< HEAD
-.concertDMC {
 
-}
-=======
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: var(--bs-nav-pills-link-active-color);
     background-color: #564787;
@@ -350,5 +345,4 @@ i.button-icone:hover {
     color:#FB8B24;
 }
 
->>>>>>> e0fbf8d2607fe89ab3978190cd418ba8f077b93d
->>>>>>> df65d0e707024e29e484b4083fc4609eed9df4e9
+
