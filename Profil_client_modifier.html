@@ -9,7 +9,7 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./Base_style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <title>Mon Activité</title>
+    <title>Mon Profil</title>
     <link rel="icon" type="image/png" sizes="16x16" href="./images/Logo/Logo.png">
 </head>
 
@@ -88,7 +88,8 @@
                                 <li>
                                     <hr class="dropdown-divider $White">
                                 </li>
-                                <li><a class="dropdown-item text-white" href="./Nous_contacter.html">Propose nous ton concert</a></li>
+                                <li><a class="dropdown-item text-white" href="./Nous_contacter.html">Propose nous ton
+                                        concert</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -97,13 +98,16 @@
                                 Expositions
                             </a>
                             <ul class="dropdown-menu text-bg-dark">
-                                <li><a class="dropdown-item text-white" href="./Expositions_street-art.html">Street-art</a></li>
-                                <li><a class="dropdown-item text-white" href="./Expositions_galerie.html">Galerie photos</a></li>
+                                <li><a class="dropdown-item text-white"
+                                        href="./Expositions_street-art.html">Street-art</a></li>
+                                <li><a class="dropdown-item text-white" href="./Expositions_galerie.html">Galerie
+                                        Expositions</a></li>
                                 <li><a class="dropdown-item text-white" href="./Expositions_musees.html">Musées</a></li>
                                 <li>
                                     <hr class="dropdown-divider $White">
                                 </li>
-                                <li><a class="dropdown-item text-white" href="./Nous_contacter.html">Propose nous ton expo</a></li>
+                                <li><a class="dropdown-item text-white" href="./Nous_contacter.html">Propose nous ton
+                                        expo</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -114,12 +118,14 @@
                             <ul class="dropdown-menu text-bg-dark">
                                 <li><a class="dropdown-item text-white" href="./Spectacle_stand_up.html">Stand-up</a>
                                 </li>
-                                <li><a class="dropdown-item text-white" href="./Spectacle_Theatre.html">Pièces de théâtres</a></li>
+                                <li><a class="dropdown-item text-white" href="./Spectacle_Theatre.html">Pièces de
+                                        théâtres</a></li>
                                 <li><a class="dropdown-item text-white" href="./Spectacle_Opera.html">Opéra</a></li>
                                 <li>
                                     <hr class="dropdown-divider $White">
                                 </li>
-                                <li><a class="dropdown-item text-white" href="#">Propose nous ton spectacle</a></li>
+                                <li><a class="dropdown-item text-white" href="./Nous_contacter.html">Propose nous ton
+                                        spectacle</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -146,66 +152,144 @@
             </div>
         </div>
     </nav>
-    <div class=" container-fluide test-activite d-flex justify-content-center align-items-center">
-        <h3 style="font-size: 100px; text-shadow: 0 0 0.75rem rgb(0, 0, 0) ; color:rgb(255, 255, 255)">MON ACTIVITE</h3>
+    <div class="container-fluide test-profil d-flex justify-content-center align-items-center">
+        <h3 style="font-size: 100px; text-shadow: 0 0 0.75rem rgb(0, 0, 0); color:rgb(255, 255, 255)">MON PROFIL</h3>
     </div>
-    <div class="d-flex align-items-start">
+    <div class="d-flex align-items-start justify">
         <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <a href="./Profil_client.html">
-                <button class="nav-link button-profil" id="v-pills-profil-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profil"
-                    type="button" role="tab" aria-controls="v-pills-profil" aria-selected="false">Mon
-                    profil</button></a>
+            <a href="./Profil_client">
+                <button class="nav-link active" id="v-pills-profil-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-profil" type="button" role="tab" aria-controls="v-pills-profil"
+                    aria-selected="false">Mon profil</button></a>
             <a href="./Mes_évènements.html">
                 <button class="nav-link button-profil" id="v-pills-evenement-tab" data-bs-toggle="pill"
                     data-bs-target="#v-pills-evenement" type="button" role="tab" aria-controls="v-pills-evenement"
                     aria-selected="true">Mes évènements</button></a>
             <a href="./Mon_activité.html">
-                <button class="nav-link active" id="v-pills-activite-tab" data-bs-toggle="pill"
+                <button class="nav-link button-profil" id="v-pills-activite-tab" data-bs-toggle="pill"
                     data-bs-target="#v-pills-activite" type="button" role="tab" aria-controls="v-pills-activite"
-                    aria-selected="false">Mon activité</button></a>
+                    aria-selected="false">Mon
+                    activité</button></a>
             <a href="./Mon_agenda.html">
-                <button class="nav-link button-profil" id="v-pills-agenda-tab" data-bs-toggle="pill" data-bs-target="#v-pills-agenda"
-                    type="button" role="tab" aria-controls="v-pills-agenda" aria-selected="false">Mon
-                    agenda</button></a>
+                <button class="nav-link button-profil" id="v-pills-agenda-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-agenda" type="button" role="tab" aria-controls="v-pills-agenda"
+                    aria-selected="false">Mon agenda</button></a>
         </div>
-        <div class="tab-content" id="v-pills-tabContent">
-            <div class="tab-pane fade show active" id="v-pills-evenement" role="tabpanel"
-                aria-labelledby="v-pills-evenement-tab" tabindex="0"></div>
-            <div class="tab-pane fade" id="v-pills-activite" role="tabpanel" aria-labelledby="v-pills-activite-tab"
-                tabindex="0"></div>
-            <div class="inner">
-                <section class="activity">
-                <div>
-                    <h1>Bienvenue dans votre activité !</h1><br>
-                    <p>Retrouvez ici votre activité sur notre site.</p>
-                </div>
-                </header>
-                <section id="commentaires">
-                    <h3>Vos commentaires</h3>
-                    <p>Vous trouverez ici tous vos commentaires laissés sur notre site.</p>
-                </section>
-                <section id="favoris">
-                    <h3>Vos Favoris</h3>
-                    <p>Vous trouverez ici tous vos favoris.</p>
-                </section>
-                <section id="likes">
-                    <h3>Vos likes</h3>
-                    <p>Vous trouverez ici les pages que vous likez sur notre site.</p>
+        <div>
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade" id="v-pills-evenement" role="tabpanel"
+                    aria-labelledby="v-pills-evenement-tab" tabindex="0"></div>
+                <div class="tab-pane fade" id="v-pills-activite" role="tabpanel" aria-labelledby="v-pills-activite-tab"
+                    tabindex="0"></div>
+                <div class="tab-pane fade" id="v-pills-agenda" role="tabpanel" aria-labelledby="v-pills-agenda-tab"
+                    tabindex="0"></div>
+                <div class="tab-pane fade show active" id="v-pills-profil" role="tabpanel"
+                    aria-labelledby="v-pills-profil-tab" tabindex="0"></div>
+                <section class="profil waiting animated">
+                    <div class="inner">
+                        <section class="infos" id="infos">
+                            <div>
+                                <h2>Bienvenue, BG BLACK !</h2>
+                            </div>
+                            <div class='avatar'>
+                                <img src="./images/Profil_client/BG_BLACK.jpg" class='avatar avatar-160 photo'
+                                    height='160' width='160'><br>
+                            </div>
+                    </div>
+                    <p>Ici, vous pouvez modifier vos informations.</p>
+                    <p>Si vous souhaitez supprimer totalement votre compte, <strong>cliquez ici.</strong>
+                    </p>
                 </section>
             </div>
         </div>
-    </section>
-        <div class="tab-pane fade" id="v-pills-agenda" role="tabpanel" aria-labelledby="v-pills-agenda-tab"
-            tabindex="0">
-        </div>
-        <div class="tab-pane fade" id="v-pills-profil" role="tabpanel" aria-labelledby="v-pills-profil-tab"
-            tabindex="0">
-        </div>
-        </p>
+        <section class="modify-profile" id="modify-profile">
+            <div>
+                <form role="form" id="user-profile-form">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2>Vos informations personnelles :</h2><br>
+                                <div class="inner">
+                                    <div class="container ">
+                                        <div class="row">
+                                            <div class="col-6 d-flex flex-column">
+                                                <label for="user-profile-display-name">Pseudo</label>
+                                                <input name="display_name" value="BG Black" type="text"
+                                                    id="user-profile-display-name" placeholder="Pseudo">
+                                            </div>
+                                            <div class="col-6 d-flex flex-column">
+                                                <label for="user-profile-firstname">Prénom</label>
+                                                <input name="firstname" value="Daniel" type="text" placeholder="Prénom">
+                                            </div>
+                                            <div class="col-6 d-flex flex-column">
+                                                <label for="user-profile-lastname">Nom</label>
+                                                <input name="lastname" value="Mc Calaway" type="text" id="user-profile-lastname"
+                                                    placeholder="Nom">
+                                            </div>
+                                        <!-- </div>
+                                        <div class="row"> -->
+                                            <div class="col-6 d-flex flex-column justify-content-end">
+                                                <label for="user-profile-email">Email</label>
+                                                <input name="email" value="DMC@gmail.com" type="email"
+                                                    id="user-profile-email" placeholder="Email">
+                                            </div>
+                                            <div class="offset-3 col-6 d-flex flex-column justify-content-end">
+                                                <label for="birthday">Date de naissance</label>
+                                                <input name="birth_date" value="16/11/1991" type="date" id="birthday"
+                                                    placeholder="00/00/0000">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 d-flex flex-column">
+                                    <h2>Vos coordonnées :</h2>
+                                    <div class="inner">
+                                        <div class="row">
+                                            <div class="col-6 d-flex flex-column">
+                                                <label for="user-profile-address">Adresse</label>
+                                                <input name="address" value="Rue de la gare" type="text"
+                                                    id="user-profile-address" placeholder="Adresse">
+                                            </div>
+                                            <div class="col-6 d-flex flex-column">
+                                                <label for="user-profile-postalcode">Code postal</label>
+                                                <input name="postalcode" value="59000" type="number"
+                                                    id="user-profile-postalcode" placeholder="Code Postal">
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-6 d-flex flex-column">
+                                                    <label for="user-profile-city">Ville</label>
+                                                    <input name="city" value="Lille" type="text" id="user-profile-city"
+                                                        placeholder="Ville">
+                                                </div>
+                                                <div class="col-6 d-flex flex-column">
+                                                    <label for="user-profile-phone">Téléphone</label>
+                                                    <input name="phone" value="06 68 00 00 00" type="tel"
+                                                        id="user-profile-phone" placeholder="Téléphone">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-center">
+                                    <a href="./Profil_client">
+                                    <button id="enregistrer">Enregistrer mes informations</button></a>
+                                </div>
+                            </div>
+                        </div>
+                </form>
+                </p>
+            </div>
     </div>
     </div>
     </div>
-
     <footer class="page-footer absolute">
         <div class="container-fluid p-0">
             <div class="text-bg-dark">
