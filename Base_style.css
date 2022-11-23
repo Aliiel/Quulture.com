@@ -355,13 +355,16 @@ i.button-icone:hover {
     padding-top: 30px;
 }
 
-.bouton_enregistrer {
+.bouton-enregistrer {
     background-color: #564787;
     border-radius: 30px;
     color:white;
     padding: 10px 20px;
 }
 
+.bouton-enregistrer:hover {
+    color:#FB8B24;
+}
 
 .connexion {
     background-color: #564787;
@@ -370,15 +373,24 @@ i.button-icone:hover {
     padding: top 100px;
 }
 
+.quulte {
+    margin: 50px;
+}
 
 
+.ids {
+    margin: 50px;
+}
 
 
+.insere {
+    margin: 50px;
+}
 
 
-
-
-
+.quulte:hover {
+    color:#FB8B24
+}
 
 
 
