@@ -318,5 +318,11 @@ i.button-icone:hover {
     background-color: #564787;
 }
 
+.button-profil {
+    color:#564787;
+}
 
+.button-profil:hover {
+    color:#FB8B24;
+}
 
