@@ -24,8 +24,17 @@
 }
 @font-face {
 	font-family: 'Federo';
-    font-weight: 400;
 	src: url(‘./Typo/Federo/Federo-Regular.ttf’) format(‘truetype’)
+}
+@font-face {
+	font-family: 'Nanum';
+    font-weight: 400;
+	src: url(‘./Typo/Nanum_Brush_Script/NanumBrushScript-Regular.ttf’) format(‘truetype’)
+}
+@font-face {
+	font-family: 'Hiro';
+    font-weight: 400;
+	src: url(‘./Typo/hiro_misake/HIROMISAKE.ttf’) format(‘truetype’)
 }
 
 /* body {
@@ -41,17 +50,26 @@
     color: red;
   } */
 
+.concertDMC{
+    justify-content: center;
+    color: #FB8B24;
+    
+}
+
 .navbar-default{
-  transition:2000ms ease;
-  background-color: transparent;
-  height: 80px;
-  position: fixed !important;
-    top: 0;
-    left: 0;
-    right: 0;
+    z-index: 1000;
+    transition:2000ms ease;
+    background-color: transparent;
+    height: 80px;
+    position: fixed !important;
+        top: 0;
+        left: 0;
+        right: 0;
+    
 }
 .navbar-default.scrolled{
     background:rgba(0, 0, 0, 0.51);
+    z-index: 1000;
 }
 .defile {
     text-decoration : none;
@@ -76,8 +94,23 @@ h2 {
 h3 {
     color : #564787;
 }
+
+.typo-japon {
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 100px;
+    text-shadow: 0 0 0.75rem black;
+    color: white;
+}
+.typo-japon:hover {
+    color: #FFBF81;
+}
+.zoom-sur {
+    color: #564787;
+    font-weight: bold;
+}
+
 .stylise {
-    font-family: 'Federo', sans-serif;
+    font-family: 'Federo';
     font-size: 100px;
     text-shadow: 0 0 0.75rem black;
     color: white;
@@ -85,7 +118,10 @@ h3 {
 .stylise:hover {
     color: #FFBF81;
 }
-
+.zoom-japon {
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 200px;
+}
 .dropdown-item, .nav-item {
     font-family: 'Rubik', sans-serif;
 }
@@ -115,6 +151,7 @@ a {
     background-image: url(./images/Photos/background.jpg);
     height: 100vh;
 }
+
 
 
 .test-japon {
@@ -289,7 +326,29 @@ i.button-icone:hover {
     padding-top:30px;
 }
 
+<<<<<<< HEAD
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: var(--bs-nav-pills-link-active-color);
     background-color: #564787;
 }
+=======
+<<<<<<< HEAD
+.concertDMC {
+
+}
+=======
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #564787;
+}
+
+.button-profil {
+    color:#564787;
+}
+
+.button-profil:hover {
+    color:#FB8B24;
+}
+
+>>>>>>> e0fbf8d2607fe89ab3978190cd418ba8f077b93d
+>>>>>>> df65d0e707024e29e484b4083fc4609eed9df4e9
