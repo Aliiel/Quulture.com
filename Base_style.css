@@ -81,8 +81,10 @@ a.defile:hover {
     color : white
 }
 .button-darkmode {
+    border-radius: 10 px;
     background-color: black;
     color: white;
+    
 }
 /* 
 .navlogo {

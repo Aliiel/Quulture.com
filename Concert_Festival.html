@@ -139,20 +139,20 @@
                             </a>
                         </li>
                     </div>
-                    <!-- <div>
-                        <button onclick="myFunction()">Toggle dark mode</button>
-                    </div> -->
+                    <div>
+                        <button class="button-darkmode" onclick="myFunction()">Dark mode</button>
+                    </div>
                 </div>
             </div>
         </div>
     </nav>
     <div class=" container-fluide test-concerts2 d-flex justify-content-center align-items-center">
-        <h3 style="font-size: 100px; text-shadow: 0 0 0.75rem rgb(0, 0, 0) ; color:rgb(255, 255, 255)">CONCERTS</h3>
+        <h3 class="titre-article" style="color:rgb(255, 255, 255);">CONCERTS</h3>
     </div>
     <div class="container">
         <div class="row">
             <div class="col-12" style="padding-top: 50px;">
-                <h2 class="toto">
+                <h2>
                     FESTIVALS
                 </h2>
             </div>
@@ -161,12 +161,7 @@
     <div class="container" style="padding-top: 50px; padding-bottom: 50px">
         <div class="row">
             <div class="col-6">
-
-                <h3>
-                    <a id="URBX"></a>
-                    <strong> URBX FESTIVAL</strong>
-                </h3>
-                <br>
+                <h3>URBX FESTIVAL</h3>
                 <p>
                     L’association Cultures Urbaines Roubaix, avec le soutien de la ville de Roubaix, est heureuse de
                     vous présenter le festival URBX,
@@ -178,28 +173,48 @@
                     CULTURES URBAINE / ROUBAIX <br> du 15 au 26 juin 2023
                 </h4>
             </div>
-            <div class="col-6">
+            <div class="col-6 text-center">
                 <img src="./Texte_DMC/CONTENUE_QUONCERT/IMAGE_PAR_CATEGORIE/FESTIVAL/Festival_Urbx.png"
                     alt="festivalUrbx" width="500vh">
+                <div class="col-12 d-flex align-items-center">
+                    <div class="col-6">
+                        <i class="bi bi-share button-icone" onclick="ChangeIconeShare(this)"></i>
+                        <i class="bi bi-heart button-icone" onclick="ChangeIconeHeart(this)"></i>
+                        <i class="bi bi-star button-icone" onclick="ChangeIconeStar(this)"></i>
+                    </div>
+                    <div class="col-6">
+                        <a class="button button-reserver"
+                                href="https://www.ticketmaster.fr/fr/rechercheavancee/g/CO/v/630/idtier/1141714?utm_source=TM-google&gclid=CjwKCAiAmuKbBhA2EiwAxQnt783q6mW8QlGR4NmgQDwcy_KzXmorU9lkBp4yS7wfSA89vSH0TZKbaRoCZF0QAvD_BwE&gclsrc=aw.ds">
+                                Où réserver
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <div class="container-fluide">
-        <div style="background-color: rgb(230, 230, 230);">
+        <div class="fond">
             <div class="container" style="padding-top: 50px; padding-bottom: 50px">
                 <div class="row">
-                    <div class="col-6">
-                        <img src="./Texte_DMC/CONTENUE_QUONCERT/IMAGE_PAR_CATEGORIE/FESTIVAL/Festival_Main_Square.jpg"
-                            alt="festivalMainsquare" width="500vh">
-
+                    <div class="col-6 text-center">
+                        <img src="./Texte_DMC/CONTENUE_QUONCERT/IMAGE_PAR_CATEGORIE/FESTIVAL/Festival_Main_Square.jpg" alt="festivalMainsquare" width="500vh">
+                        <div class="col-12 d-flex align-items-center">
+                            <div class="col-6">
+                                <i class="bi bi-share button-icone" onclick="ChangeIconeShare(this)"></i>
+                                <i class="bi bi-heart button-icone" onclick="ChangeIconeHeart(this)"></i>
+                                <i class="bi bi-star button-icone" onclick="ChangeIconeStar(this)"></i>
+                            </div>
+                            <div class="col-6">
+                                <a class="button button-reserver"
+                                    href="https://www.ticketmaster.fr/fr/rechercheavancee/g/CO/v/630/idtier/1141714?utm_source=TM-google&gclid=CjwKCAiAmuKbBhA2EiwAxQnt783q6mW8QlGR4NmgQDwcy_KzXmorU9lkBp4yS7wfSA89vSH0TZKbaRoCZF0QAvD_BwE&gclsrc=aw.ds">
+                                    Où réserver
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-6 d-flex flex-column align-items-start">
-                        <h3>
-                            <a id="MNSQR"></a>
-                            <strong> MAINSQUARE FESTIVAL </strong>
-                        </h3>
-                        <br>
+                        <h3>MAINSQUARE FESTIVAL</h3>
                         <p>
                             Le Main Square Festival se tient tous les ans pendant l’été durant 3 jours correspondant au
                             premier week-end du mois de juillet. <br>
@@ -212,24 +227,12 @@
                             festival.
                         </p>
                         <h4>
-                            FESTIVAL DE MUSIQUE / ARRAS <br> DU 1 AU 3 JUILLET 2023
-
+                            FESTIVAL DE MUSIQUE / ARRAS <br> Du 1er au 3 Juillet 2023
+                        </h4>
                     </div>
-
                 </div>
             </div>
         </div>
-
-    </div>
-
-    <div class="row">
-        <div class="col-6">
-            <p>
-
-            </p>
-        </div>
-    </div>
-
     </div>
 
     <footer class="page-footer absolute">
