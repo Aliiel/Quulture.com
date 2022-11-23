@@ -22,6 +22,11 @@
 	src: url(‘./Typo/Raleway/Raleway-VariableFont_wght.ttf’) format(‘truetype’),
 		url(‘./Typo/static/Raleway-Regular.ttf’) format(‘truetype’)
 }
+@font-face {
+	font-family: 'Federo';
+    font-weight: 400;
+	src: url(‘./Typo/Federo/Federo-Regular.ttf’) format(‘truetype’)
+}
 
 /* body {
     background-color: white;
@@ -48,9 +53,39 @@
 .navbar-default.scrolled{
     background:rgba(0, 0, 0, 0.51);
 }
+.defile {
+    text-decoration : none;
+    color: white;
+}
+
+a.defile:hover {
+    text-decoration : none;
+    color : white
+}
+/* 
+.navlogo {
+    padding-top: 40px;
+} */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Rubik', sans-serif;
 }
+h2 {
+    color: #FB8B24;
+}
+h3 {
+    color : #564787;
+}
+.stylise {
+    font-family: 'Federo', sans-serif;
+    font-size: 100px;
+    text-shadow: 0 0 0.75rem black;
+    color: white;
+}
+.stylise:hover {
+    color: #FFBF81;
+}
+
 .dropdown-item, .nav-item {
     font-family: 'Rubik', sans-serif;
 }
@@ -62,18 +97,197 @@ p {
 }
 a {
     text-decoration : none;
+    color : white
 }
 .reseau {
     color: white;
 }
 
+.mainlogo{
+    height: 20vh;
+}
 
-/* .test {
+.test-background {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(./ZoomsurJapon/Images/Kyoto.jpg);
+    background-image: url(./images/Photos/background.jpg);
     height: 100vh;
+}
 
-} */
+
+.test-japon {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/japon.jpg);
+    height: 50vh;
+}
+
+.test-japon2 {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/japon.jpg);
+    height: 100vh;
+}
+
+.test-concerts {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/concert.jpg);
+    height: 50vh;
+}
+
+.test-concerts2 {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/concert.jpg);
+    height: 50vh;
+}
+
+.test-expo {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/exposition.jpg);
+    height: 50vh;
+}
+
+.test-spectacle {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/spectacle.jpg);
+    height: 50vh;
+}
+.test-mentions{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/Mentions.jpg);
+    height: 50vh;
+}
+
+.carte {
+    color: #564787;
+}
+.carte:hover {
+    color: #E2D6FF;
+}
+
+.test-profil {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/Profil_client/profil.jpg);
+    height: 50vh;
+}
+
+.test-agenda{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url(./images/Profil_client/agenda.jpg);
+    height: 50vh;
+}
+
+.test-connexion{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/connexion.jpg);
+    height: 50vh;
+}
+
+.test-activite{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/activite.jpg);
+    height: 50vh;
+}
+
+.test-evenements{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/evenement.jpg);
+    height: 50vh;
+}
+
+.test-contact{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url(./images/Photos/Contact.jpg);
+    height: 50vh;
+}
+
+.button-reserver {
+    border-radius: 20px;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: transparent; 
+    color: #564787; 
+    border: 2px solid #564787;
+}
+.button-reserver:hover {
+    background-color: #564787;
+    color: white;
+  }
+
+i.button-icone {
+    font-size: 32px;
+    color:#564787;
+    cursor: pointer;
+}
+i.button-icone:hover {
+    color:#E2D6FF;
+}
+
+
+.infos {
+    padding-top: 30px;
+}
+
+.modify-profile {
+    padding-top: 30px;
+}
+
+.events {
+    padding-top: 30px;
+}
+
+.activity {
+    padding-top: 30px;
+}
+
+.agenda {
+    padding-top:30px;
+}
+
+
+
