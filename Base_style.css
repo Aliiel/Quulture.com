@@ -393,9 +393,13 @@ i.button-icone:hover {
 }
 
 
+.agenda {
+    align-items: center;
+}
 
-
-
+.votre-agenda {
+    text-align: center;
+}
 
 
 
