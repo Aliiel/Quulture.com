@@ -110,6 +110,7 @@ h3 {
 .typo-japon:hover {
     color: #FFBF81;
 }
+
 .zoom-sur {
     color: #564787;
     font-weight: bold;
@@ -392,10 +393,17 @@ i.button-icone:hover {
     color:#FB8B24
 }
 
+.agenda {
+    align-items: center;
+}
 
+.connexion1{
+    color:#FB8B24
+}
 
-
-
+.votre-agenda {
+    text-align: center;
+}
 
 
 
