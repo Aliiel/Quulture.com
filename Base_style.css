@@ -442,6 +442,10 @@ i.button-icone:hover {
     margin-top: 50px;
 }
 
+.avatar {
+    padding-top: 20px;
+    border-radius: 50px;
+}
 
 
 
