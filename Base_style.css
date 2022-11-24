@@ -409,14 +409,25 @@ i.button-icone:hover {
     text-align: center;
 }
 
+.bienvenue {
+    text-align: center;
+    margin-top: 30px;
+}
 
 
+.vos-like {
+    margin-bottom: 50px;
+}
+
+.bienvenue-events {
+    text-align: center;
+    margin-top: 30px;
+}
 
 
-
-
-
-
+.evenements-passes {
+    margin-bottom: 50px;
+}
 
 
 
