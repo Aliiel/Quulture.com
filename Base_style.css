@@ -348,6 +348,7 @@ i.button-icone:hover {
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: var(--bs-nav-pills-link-active-color);
     background-color: #564787;
+    
 }
 .button-profil {
     color:#564787;
@@ -365,6 +366,8 @@ i.button-icone:hover {
     border-radius: 30px;
     color:white;
     padding: 10px 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .bouton-enregistrer:hover {
@@ -382,16 +385,13 @@ i.button-icone:hover {
     margin: 50px;
 }
 
-
 .ids {
     margin: 50px;
 }
 
-
 .insere {
     margin: 50px;
 }
-
 
 .quulte:hover {
     color:#FB8B24
@@ -399,6 +399,8 @@ i.button-icone:hover {
 
 .agenda {
     align-items: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
 }
 
 .connexion1{
@@ -414,7 +416,6 @@ i.button-icone:hover {
     margin-top: 30px;
 }
 
-
 .vos-like {
     margin-bottom: 50px;
 }
@@ -424,17 +425,27 @@ i.button-icone:hover {
     margin-top: 30px;
 }
 
-
 .evenements-passes {
     margin-bottom: 50px;
+    padding-top: 30px;
 }
 
+.coordonnees {
+    padding-top: 50px;
+}
 
+.evenements-a-venir {
+    margin-top: 50px;
+}
 
+.vos-com {
+    margin-top: 50px;
+}
 
-
-
-
+.avatar {
+    padding-top: 20px;
+    border-radius: 50px;
+}
 
 
 
