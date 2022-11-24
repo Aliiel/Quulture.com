@@ -169,25 +169,33 @@
                     data-bs-target="#v-pills-agenda" type="button" role="tab" aria-controls="v-pills-agenda"
                     aria-selected="false">Mon agenda</button></a>
         </div>
-        <div class="tab-content" id="v-pills-tabContent">
-            <div class="tab-pane fade show active" id="v-pills-evenement" role="tabpanel"
-                aria-labelledby="v-pills-evenement-tab" tabindex="0"></div>
-            <div class="tab-pane fade" id="v-pills-activite" role="tabpanel" aria-labelledby="v-pills-activite-tab"
-                tabindex="0"></div>
-            <div class="tab-pane fade" id="v-pills-agenda" role="tabpanel" aria-labelledby="v-pills-agenda-tab"
-                tabindex="0">
-            </div>
-            <div class="inner">
-                <section class="d-flex justify-content-center agenda" id="agenda">
-                <h1>Bienvenue dans votre agenda !</h1>
-                <iframe class="agenda"
-                    src="https://calendar.google.com/calendar/embed?src=6eb55400be4cd376f9793e619ca7fd641ac21949a4f0c42c1e9db016c1a30f1c%40group.calendar.google.com&ctz=Europe%2FParis"
-                    style="border: 0" width="600" height="400" frameborder="0" scrolling="no"></iframe>
-            </div>
-            <div class="tab-pane fade" id="v-pills-profil" role="tabpanel" aria-labelledby="v-pills-profil-tab"
-                tabindex="0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-evenement" role="tabpanel"
+                            aria-labelledby="v-pills-evenement-tab" tabindex="0"></div>
+                        <div class="tab-pane fade" id="v-pills-activite" role="tabpanel" aria-labelledby="v-pills-activite-tab"
+                            tabindex="0"></div>
+                        <div class="tab-pane fade" id="v-pills-agenda" role="tabpanel" aria-labelledby="v-pills-agenda-tab"
+                            tabindex="0">
+                        </div>
+                        <div class="inner d-flex flex-column align-items-center">
+                            <section class="agenda" id="agenda">
+                                <h1>Bienvenue dans votre agenda !</h1>
+                                <iframe class="agenda"
+                                    src="https://calendar.google.com/calendar/embed?src=6eb55400be4cd376f9793e619ca7fd641ac21949a4f0c42c1e9db016c1a30f1c%40group.calendar.google.com&ctz=Europe%2FParis"
+                                    style="border: 0" width="600" height="400" frameborder="0" scrolling="no"></iframe>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profil" role="tabpanel" aria-labelledby="v-pills-profil-tab"
+                            tabindex="0">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+        
     </div>
 </section>
     <footer class="page-footer absolute">
